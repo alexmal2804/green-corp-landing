@@ -74,6 +74,7 @@ button:hover {
 .about_sun_image{
     width: 100px;
     height: 100px;
+    animation: rotation 10s infinite linear;
 }
 .about_info {
     max-width: 550px;
@@ -164,4 +165,13 @@ footer_group h3 {
 }
 .footer_links a {
     margin-bottom: 15px;
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
 }
