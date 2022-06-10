@@ -75,6 +75,7 @@ button:hover {
     width: 100px;
     height: 100px;
     animation: rotation 10s infinite linear;
+    position: absolute;
 }
 .about_info {
     max-width: 550px;
